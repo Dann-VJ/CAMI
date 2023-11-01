@@ -1,0 +1,31 @@
+/*.alert-mensaje {
+	position:	fixed;
+	bottom: 		20px;
+	right:		20px;
+}*/
+
+/* Mensaje de espera al cargar */
+#cargando {
+	display: flex;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgray;
+	z-index: 9000;
+	opacity: 0.4;
+	visibility: hidden;
+}
+
+#cargando h1 {
+	font-size: 40pt;
+}
+
+.alert-mensaje {
+	position:	fixed;
+	bottom: 	20px;
+	right:		20px;
+	width: 25rem;
+	border-radius: 8px;
+}
